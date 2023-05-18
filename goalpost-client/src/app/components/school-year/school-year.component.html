@@ -1,0 +1,5 @@
+<h2>{{ schoolYear.title }}</h2>
+
+<div *ngFor="let term of schoolYear.terms">
+  <app-school-term [schoolTerm]="term"></app-school-term>
+</div>
